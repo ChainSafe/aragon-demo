@@ -1,0 +1,21 @@
+{
+  "roles": [
+    {
+      "name": "Modify voters",
+      "id": "ADMIN_ROLE",
+      "params": []
+    },
+    {
+      "name": "Vote",
+      "id": "VOTER_ROLE",
+      "params": []
+    }
+  ],
+  "path": "contracts/VotingApp.sol",
+  "environments": {
+    "default": {
+      "network": "development",
+      "appName": "fenos.aragonpm.eth"
+    }
+  }
+}
